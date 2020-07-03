@@ -16,18 +16,18 @@ const Container = styled.div`
 const CssTextField = withStyles({
   root: {
     "& .MuiInput-underline:after": {
-      borderBottomColor: "#25b99a"
+      borderBottomColor: "#25b99a",
     },
     "& .MuiOutlinedInput-root": {
       "&.Mui-focused fieldset": {
-        borderColor: "#25b99a"
-      }
+        borderColor: "#25b99a",
+      },
     },
     "& .MuiSvgIcon-root": {
       fontSize: "30px",
-      color: "rgba(0, 0, 0, 0.54)"
-    }
-  }
+      color: "rgba(0, 0, 0, 0.54)",
+    },
+  },
 })(FormControl);
 
 const StyledInput = styled(CssTextField)`
@@ -74,7 +74,6 @@ const AddIconButton = styled(IconButton)`
     svg {
       font-size: 40px;
       position: relative;
-      bottom: 2px;
     }
 
     @media (max-width: 470px) {
