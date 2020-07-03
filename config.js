@@ -1,4 +1,4 @@
 module.exports = {
   url: "mongodb://localhost:27017/notes",
-  serverport: 3000
+  serverport: process.env.PORT || 3000
 };
