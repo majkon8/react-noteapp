@@ -32,9 +32,9 @@ mongoose
     process.exit();
   });
 
-app.get("/", (req, res) => {
-  res.json({ message: "Welcome to NoteApp" });
-});
+// app.get("/", (req, res) => {
+//   res.json({ message: "Welcome to NoteApp" });
+// });
 
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
